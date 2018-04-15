@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-
+      验证码：<input type="text" name="checkcode"/>
+      <img alt="验证码" id="imagecode" src="<%=request.getContextPath() %>ImageServlet"/>
+      <a href="javascript: reloadCode();">看不清楚</a><br>
   </body>
 </html>
