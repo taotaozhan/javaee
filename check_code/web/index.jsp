@@ -9,10 +9,19 @@
 <html>
   <head>
     <title>$Title$</title>
+      <script type="text/javascript">
+          function reloadCode(){
+              var time = new Date().getTime();
+              document.getElementById("imagecode").src="<%=request.getContextPath() %>/ImageServlet?d="+time;
+          }
+      </script>
   </head>
   <body>
+  <form action="LoginServlet" method="get">
   验证码：<input type="text" name="checkcode"/>
-  <img alt="验证码" id="imagecode" src="<%=request.getContextPath() %>ImageServlet"/>
-  <a href="javascript: reloadCode();">看不清楚</a><br>
+  <img alt="验证码" id="imagecode" src="<%=request.getContextPath() %>/ImageServlet"/>
+    <a href="javascript: reloadCode();">看不清楚</a><br>
+     <input type="submit" value="提交">
+  </form>
   </body>
 </html>
