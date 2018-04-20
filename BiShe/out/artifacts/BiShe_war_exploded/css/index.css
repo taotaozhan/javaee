@@ -1,0 +1,146 @@
+body{
+    background-color: #f7f7f7;
+    width:1080px;
+    height:auto;
+    margin:auto;
+}
+.in10{
+    width:1084px;
+    border-left: #b4b4b4 1px solid;
+    border-right:#b4b4b4 1px solid;
+}
+.in11{
+    list-style:none;
+    display:inline;
+}
+.in12{
+    float:left;
+    height:40px;
+    padding:10px 25px;
+}
+.in11>a{
+    color:black;
+}
+.in12:hover{
+    background: #01729a;
+    cursor: pointer;
+    color:white;
+}
+.in13{
+    height:3px;
+    background: #01729a;
+    border:none;
+    margin-top:20px;
+}
+.in14{
+    width:800px;
+    height:310px;
+    float:left;
+    margin-top:-15px;
+}
+.in15{
+    width:280px;
+    float:left;
+    padding-left:13px;
+    padding-top:13px;
+}
+.in16{
+    font-size:15px;
+    font-weight:bold;
+}
+.in16 a:hover{
+    cursor:pointer;
+}
+.in17{
+    border-bottom: #2f2e32 dotted 1px;
+}
+.in18{
+    margin:5px;
+}
+.in19{
+    width:262px;
+}
+.in20{
+    width:80px;
+    height:60px;
+    vertical-align:middle;
+}
+.in21{
+    font-weight: normal;
+    color: #a18881;
+    width:115px;
+    overflow:hidden;
+    white-space: nowrap;
+    margin-bottom:-5px;
+    text-overflow: ellipsis;
+    margin-left:0px;
+}
+.in22{
+    margin-top:20px;
+    margin-right:10px;
+}
+.in20:hover,.in21:hover,.in22:hover{
+    cursor:pointer;
+}
+.in23{
+    padding-left:10px;
+    padding-top:10px;
+    width:800px;
+    height:445px;
+    float:left;
+}
+.in24{
+    font-size:20px;
+}
+.in25{
+    width:100%;
+    height:130px;
+}
+.in26{
+    margin-left:10px;
+    width:150px;
+    margin-top:7px;
+    font-weight: normal;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.in27{
+    width:180px;
+    background-color:white;
+}
+.in28{
+    margin-left:30px;
+}
+.in29{
+    margin-left:20px;
+}
+.in30{
+    width:80px;
+    height:64px;
+    vertical-align:middle;
+}
+.in31{
+    margin-left:190px;
+    margin-top:-20px;
+}
+.in32{
+    width:200px;
+    border-bottom:1px #ffc4b5 solid;
+}
+.in33{
+    margin-top:-15px;
+}
+.in28,.in29:hover{
+    cursor: pointer;
+}
+.in34:hover{
+    cursor: pointer;
+}
+.in35{
+    display:inline;
+    margin-left:30px;
+}
+.in54{
+    background: #01729a;
+}

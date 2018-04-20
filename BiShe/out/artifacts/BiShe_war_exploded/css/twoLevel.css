@@ -1,0 +1,33 @@
+a:hover{
+    text-decoration: none;
+}
+.tl1{
+    width:1084px;
+    height:30px;
+    border-left:1px solid #b4b4b4;
+    border-right:1px solid #b4b4b4;
+}
+.tl2{
+    width:1084px;
+    margin-left:20px;
+    margin-top:-3px;
+}
+.tl3{
+    width:1084px;
+    height:490px;
+    border-left:1px solid #b4b4b4;
+    border-right:1px solid #b4b4b4;
+}
+.tl4{
+    margin-left:10px;
+}
+.tl5{
+    margin-left:350px;
+}
+.tl6{
+    margin-left:450px;
+    margin-top:-50px;
+}
+.tl6>span{
+    padding:3px;
+}

@@ -1,0 +1,17 @@
+body,div,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,input,form,textarea,a,img,table.td{padding:0;margin:0;}
+ol,ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+.clearfloat{zoom:1;}
+.clearfloat:after{display: block;clear: both;content: "";visibility: hidden;height: 0;}
+body{font-size: 12px;}
+textarea{resize: none;}
+input,select,textarea{outline: none;border: none;background: none;}
+a{text-decoration: none;  color: #656565;}
+li{list-style: none;}
+.clearfix:after{content: "";display: block;clear:both;}
+.clearfix{zoom:1;}
+.fl{
+    float: left;}
+.fr{
+    float: right;}

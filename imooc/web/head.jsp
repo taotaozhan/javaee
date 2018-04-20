@@ -1,0 +1,62 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Administrator
+  Date: 2018/4/19
+  Time: 23:25
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="style/reset.css">
+    <link type="text/css" rel="stylesheet" href="style/main.css">
+</head>
+<body>
+   <div class="headerBar">
+       <div class="topBar">
+           <div class=" comWidth">
+              <div class="leftArea">
+                  <a href="#" class="collection">收藏慕课</a>
+              </div>
+               <div class="rightArea">
+                  欢迎来到慕课网！<a href="#">[登陆]</a><a href="#">[免费注册]</a>
+               </div>
+           </div>
+       </div>
+       <div class="logoBar">
+           <div class="comWidth">
+               <div class="logo fl">
+                   <a href="#"><img src="../image/logo1.png" alt="慕课网"></a>
+               </div>
+               <div class="search_box fl">
+                   <input type="text" class="search_text fl">
+                   <input type="button" value="搜索" class="search_btn fr">
+               </div>
+               <div class="shopCar fr">
+                   <span class="shopText fl">购物车</span>
+                   <span class="shopNum fl">0</span>
+               </div>
+           </div>
+       </div>
+       <div class="navBox">
+           <div class="comWidth">
+           <div class="shopClass">
+               <h3>全部商品分类</h3>
+               <div>
+                   <ul class="nav">
+                       <li><a href="#">数码城</a></li>
+                       <li><a href="#">天黑黑</a></li>
+                       <li><a href="#">团购</a></li>
+                       <li><a href="#">发现</a></li>
+                       <li><a href="#">二手特卖</a></li>
+                       <li><a href="#">名品会</a></li>
+                       <li></li>
+                   </ul>
+               </div>
+           </div>
+           </div>
+       </div>
+   </div>
+</body>
+</html>

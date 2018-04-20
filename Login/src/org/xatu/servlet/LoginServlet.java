@@ -1,10 +1,12 @@
 package org.xatu.servlet;
 
+import com.octo.captcha.module.servlet.image.SimpleImageCaptchaServlet;
 import org.xatu.dao.Person;
 import org.xatu.dao.test.PersonDaoFactory;
 
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +27,7 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         p.setPassword(password);
         p.setErrors(errors);
 
+
         if (p.initiateDate()) {
             if(PersonDaoFactory.PersonDaoFactory().isLogin(p)){
                 path = "login_success.jsp";
@@ -36,7 +39,21 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
             request.setAttribute("person",p) ;
             request.getRequestDispatcher(path).forward(request,response) ;
         }
+
+
+        response.setContentType("text/html,charset=utf-8");
+        String userCaptchaResponse = request.getParameter("japtcha");
+        boolean captchaPassed = SimpleImageCaptchaServlet.validateResponse(request, userCaptchaResponse);
+        if (captchaPassed)
+               request.getRequestDispatcher(path).forward(request,response) ;
+        else {
+            response.getWriter().write("captcha failed");
+            response.getWriter().write("<a href='index.jsp'>Try again</a>");
+        }
+
     }
+
+
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 

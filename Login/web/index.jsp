@@ -11,6 +11,7 @@
     <title>页面登陆</title>
   </head>
   <body>
+  <center>
     <h1>页面登陆</h1>
     <form action="LoginServlet" method="post">
         <table>
@@ -21,11 +22,12 @@
       <td>密码:<input type="password" name="password"></td>
     </tr>
       <tr>
-        <td><input type="submit" value="提交">
+        <td><img src="jcaptcha.jpg" /> <input type="text" name="japtcha" value="" /> <br>
+            <input type="submit"/>
         <input type="reset" value="重置"></td>
     </tr>
         </table>
   </form>
-
+</center>
   </body>
 </html>
